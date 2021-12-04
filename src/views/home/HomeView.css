@@ -58,22 +58,6 @@
     z-index: 22;
 }
 
-.icon-box .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.icon-box .card div{ 
-  height: 200px;
-  width: 300px;
-  background-color: #2e7d32;
-}
-
-
 .icon-box .card img{
-    margin: 2px;
-    padding: 3px;
     width: 100%;
 }

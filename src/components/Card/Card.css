@@ -1,0 +1,28 @@
+.card-box {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #3ba36f;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    margin: 15px;
+    padding: 10px;
+}
+.image-box {
+    text-align: center;
+}
+.card-name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 22px;
+    margin: 16px 0;
+}
+.card-info {
+    margin-left: 10px;
+}
+.card-info div {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.card-info h4 {
+    font-family: 'Roboto', sans-serif;
+}

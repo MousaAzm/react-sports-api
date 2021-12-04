@@ -20,19 +20,19 @@ export const HomeView = () => {
       </section>
       <section className="icon-box">
           <Container>
-              <Grid sx={{ display: 'grid', gap: 2, gridTemplateColumns: 'repeat(3, 1fr)' }}>
-                <div className="box">
-                  <Card>
+              <Grid sx={{display: 'grid', gap: 2, gridTemplateColumns: 'repeat(3, 1fr)'}}>
+                <div>
+                  <Card sx={{border: 2, borderColor: 'success.main'}}>
                       <CardMedia component="img" image={image01} alt="img" />                 
                   </Card>
                 </div>
-                <div className="box" >
-                  <Card>
+                <div>
+                  <Card sx={{border: 2, borderColor: 'success.main' }}>
                     <CardMedia component="img" image={image02} alt="img" />
                   </Card>
                 </div>
-                <div className="box">
-                  <Card >
+                <div>
+                  <Card sx={{border: 2, borderColor: 'success.main' ,}}>
                     <CardMedia component="img" image={image03} alt="img" />
                   </Card>
                 </div>

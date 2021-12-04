@@ -48,16 +48,16 @@ export const Navigation = () => {
                   Home
                 </Button>
                 <Button
-                  onClick={() => navigate(RoutingPath.playerView)}
+                  onClick={() => navigate(RoutingPath.SportView)}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  Player
+                  Sports
                 </Button>
                 <Button
-                  onClick={() => navigate(RoutingPath.teamView)}
+                  onClick={() => navigate(RoutingPath.leagueView)}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  Team
+                  League
                 </Button>
               </Box>
               <Typography
@@ -108,18 +108,10 @@ export const Navigation = () => {
                   </MenuItem>
                   <MenuItem>
                     <Typography
-                      onClick={() => navigate(RoutingPath.playerView)}
+                      onClick={() => navigate(RoutingPath.SportView)}
                       textAlign="center"
                     >
-                      Player
-                    </Typography>
-                  </MenuItem>
-                  <MenuItem>
-                    <Typography
-                      onClick={() => navigate(RoutingPath.teamView)}
-                      textAlign="center"
-                    >
-                      Team
+                      Sports
                     </Typography>
                   </MenuItem>
                 </Menu>

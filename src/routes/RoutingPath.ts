@@ -1,9 +1,9 @@
-const homeView: string = '/'
-const playerView: string = '/player'
-const teamView: string = '/team'
+const homeView = '/'
+const SportView = '/sports'
+const leagueView = '/league'
 
 export default {
     homeView,
-    playerView,
-    teamView
+    SportView,
+    leagueView
 }
