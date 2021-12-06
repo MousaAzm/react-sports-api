@@ -10,9 +10,6 @@ const getAllLeague = ()=> {
 }
 
 
-
-
-
 export default{
     getAllSports,
     getAllLeague
