@@ -4,7 +4,6 @@ import { LeagueView } from "../views/league/LeagueView";
 import { SportView } from "../views/team/SportView";
 import RoutingPath from "./RoutingPath"
 
-
 export const Routes = ({ children }: any) => {
   return (
     <BrowserRouter>
